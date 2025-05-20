@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,39 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Project Estimator Backend
+
+A Laravel REST API for managing projects, staff salaries, and office expenses. It calculates total project costs based on staff time and operational expenses.
+
+---
+
+##  Tech Stack
+
+- **Laravel 10+**
+- **MySQL**
+- **PHP 8+**
+- **XAMPP / Apache**
+- **Composer**
+
+---
+
+##  Folder Structure
+
+backend/ <br>
+├── app/  <br>
+│ └── Http/  <br>
+│ └── Controllers/  <br>
+│ ├── ProjectController.php  <br>
+│ ├── StaffController.php  <br>
+│ └── OfficeExpenseController.php  <br>
+├── models/  <br>
+│ ├── Project.php   <br>
+│ ├── Staff.php  <br>
+│ └── OfficeExpense.php   <br>
+├── routes/  <br>
+│ └── api.php  <br>
+└── .env
+
+
+>>>>>>> 303028190d26d8cf83b9b6c15f62b88e93fa1bf0
