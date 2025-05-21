@@ -99,5 +99,58 @@ backend/ <br>
 │ └── api.php  <br>
 └── .env
 
+## Testing GET and POST Requests with Postman
+1. GET /projects
+    - **Method: GET**
+    - **URL: http://127.0.0.1 /api/projects**
+   
+2. POST /projects
+    - **Method: POST**
+    - **URL: http://127.0.0.1 /api/projects**
+    -  **Provide a request body like this:**
+     {
+    "name": "New Project",
+    "description": "Description of the new project"
+}
+3. GET /staff
+     - **Method: GET**
+     -  **URL: http://127.0.0.1/api/staff**
+      
+
+4. POST /staff
+      - **Method: POST**
+      - **URL: http://127.0.0.1/api/staff**
+      - **Provide a request body like this:**
+        {
+    "name": "Maduwanthi",
+    "salary": 70000
+}
+5. PUT /staff
+      - **Method: PUT**
+      - **URL: http://127.0.0.1/api/staff/1**
+      - **Provide a request body like this:**
+        {
+    "name": "Maduwanthi Lakshika",
+    "salary": 70000
+}
+
+6. POST /expenses
+      - **Method: POST**
+      - **URL: http://127.0.0.1/api/expenses**
+      - **Provide a request body like this:**
+       {
+    "name": "Office Supplies",
+    "amount": 200
+}
+7.  PUT /expenses/{id}
+       - **Method: PUT**
+      - **URL: http://127.0.0.1/api/expenses/1**
+      - **Provide a request body like this:**
+       {
+    "name": "Office data",
+    "amount": 1000
+}
+
+
 
 
